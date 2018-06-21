@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Równania</string>
+    <string name="r_wnanie_liniowe_ax_b_0">Równanie liniowe ax+b=0</string>
+    <string name="x">x +</string>
+    <string name="_0">= 0</string>
+    <string name="r_wnanie_kwadratowe_ax_2_bx_c_0">Równanie kwadratowe ax^2+bx+c=0</string>
+    <string name="r_wnanie_liniowe_bx_c_0">Równanie liniowe bx+c=0</string>
+    <string name="x_2">x^2 +</string>
+    <string name="rozwi">Rozwiąż</string>
+    <string name="wyczy">Wyczyść</string>
+    <string name="liniowe">Linear liniowe</string>
+    <string name="tożsamociowe">Równanie tożsamościowe</string>
+    <string name="contra">Równanie sprzeczne</string>
+    <string name="no_solution">Brak rozwiązań</string>
+    <string name="complet">Uzupełnij</string>
+</resources>

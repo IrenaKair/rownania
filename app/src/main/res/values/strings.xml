@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Equations</string>
+    <string name="r_wnanie_liniowe_ax_b_0">Linear equation ax+b=0</string>
+    <string name="x">x +</string>
+    <string name="_0">= 0</string>
+    <string name="r_wnanie_kwadratowe_ax_2_bx_c_0">Quadratic equation ax^2+bx+c=0</string>
+    <string name="r_wnanie_liniowe_bx_c_0">Linear equation bx+c=0</string>
+    <string name="x_2">x^2 +</string>
+    <string name="rozwi">Calculate</string>
+    <string name="wyczy">Clear</string>
+    <string name="liniowe">Linear equation</string>
+    <string name="tożsamociowe">identity equation</string>
+    <string name="contra">Contradictory equation</string>
+    <string name="no_solution">No solutions</string>
+    <string name="complet">Complete</string>
+</resources>

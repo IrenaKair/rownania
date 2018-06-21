@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ecuación</string>
+    <string name="r_wnanie_liniowe_ax_b_0">Ecuación lineal ax+b=0</string>
+    <string name="x">x +</string>
+    <string name="_0">= 0</string>
+    <string name="r_wnanie_kwadratowe_ax_2_bx_c_0">Ecuación cuadrática ax^2+bx+c=0</string>
+    <string name="r_wnanie_liniowe_bx_c_0">Ecuación lineal bx+c=0</string>
+    <string name="x_2">x^2 +</string>
+    <string name="rozwi">Calcular</string>
+    <string name="wyczy">Claro</string>
+    <string name="liniowe">Ecuación lineal</string>
+    <string name="tożsamociowe">Ecuación de identidad</string>
+    <string name="contra">Ecuación contradictoria</string>
+    <string name="no_solution">Sin soluciones</string>
+    <string name="complet">Completo</string>
+</resources>

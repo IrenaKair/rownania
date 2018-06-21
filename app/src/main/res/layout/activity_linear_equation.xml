@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_linear_equation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#4490e2"
+    tools:context="com.example.irena.equations.LinearEquation">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/r_wnanie_liniowe_ax_b_0"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:id="@+id/title2"
+        android:layout_marginTop="5dp"
+        />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/title2"
+    android:id="@+id/rownanie"
+    >
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" a "
+        android:id="@+id/dataA1"
+        android:layout_below="@+id/title2"
+        android:layout_marginTop="5dp"
+        android:textColorHint="#4bffffff"
+        android:textColor="#ffffff"
+        android:inputType="numberDecimal|numberSigned"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/a"
+        android:text="@string/x"
+        android:layout_toRightOf="@+id/dataA1"
+        android:layout_marginTop="5dp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" b "
+        android:id="@+id/dataB1"
+        android:layout_toRightOf="@+id/a"
+        android:layout_marginTop="5dp"
+        android:textColorHint="#4bffffff"
+        android:textColor="#ffffff"
+        android:inputType="numberDecimal|numberSigned"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_0"
+        android:layout_toRightOf="@+id/dataB1"
+        android:textColor="#ffffff"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/solutionL"
+        android:layout_below="@+id/rownanie"
+        android:layout_marginTop="5dp"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        />
+
+    <LinearLayout
+        android:id="@+id/lineButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/solutionL"
+        android:layout_marginTop="45dp">
+
+        <Button
+            android:id="@+id/countEqL"
+            style="@style/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:onClick="countLin"
+            android:text="Rozwiąż " />
+
+        <Button
+            android:id="@+id/clear"
+            style="@style/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/countEqL"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/countEqL"
+            android:layout_weight="1"
+            android:onClick="clear"
+            android:text="wyczyść" />
+    </LinearLayout>
+
+    <com.softmoore.android.graphlib.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/lineButton2"
+        android:id="@+id/graphView1"
+        android:layout_marginTop="5dp"/>
+
+</RelativeLayout>

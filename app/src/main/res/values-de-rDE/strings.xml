@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gleichung</string>
+    <string name="r_wnanie_liniowe_ax_b_0">Lineare gleichung ax+b=0</string>
+    <string name="x">x +</string>
+    <string name="_0">= 0</string>
+    <string name="r_wnanie_kwadratowe_ax_2_bx_c_0">Quadratische gleichung ax^2+bx+c=0</string>
+    <string name="r_wnanie_liniowe_bx_c_0">Lineare gleichung bx+c=0</string>
+    <string name="x_2">x^2 +</string>
+    <string name="rozwi">Berechnen</string>
+    <string name="wyczy">Klar</string>
+    <string name="liniowe">Lineare gleichung</string>
+    <string name="tożsamociowe">Identitätsgleichung</string>
+    <string name="contra">Widersprüchliche gleichung</string>
+    <string name="no_solution">Keine lösungen</string>
+    <string name="complet">Komplett</string>
+</resources>
